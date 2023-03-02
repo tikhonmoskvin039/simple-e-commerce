@@ -1,0 +1,49 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.appHeader {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 2px #000000;
+}
+
+.shoppingCart {
+    font-size: 30px;
+    margin-right: 16px;
+}
+
+.appFooter {
+    height: 60px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.pageContent {
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.itemCardImage {
+    height: 150px !important;
+    object-fit: scale-down;
+}
+
+.itemCard, .itemCardBadge {
+    margin: 8px;
+}
+
+.productsContainer {
+    padding: 8px;
+}
+
